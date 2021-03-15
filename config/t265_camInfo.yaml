@@ -1,0 +1,21 @@
+image_width: 300
+image_height: 300
+camera_name: t265_undistort_left
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [285.09249878, 0.000000, 424.8494873, 0.000000, 285.09869385, 393.41690063 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [150, 0.000000, 261.5, 0.000000, 0.000000, 150, 149.5, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
+
