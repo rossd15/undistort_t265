@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+  <rosparam file="$(find undistort_t265)/config/t265_camInfo.yaml" />
+  <node name="undistort_T265" pkg="undistort_t265" type="t265_stereo.py" output="screen">
+  </node>
+
+</launch>
